@@ -1,53 +1,16 @@
-# InfoHub - Your Everyday Utilities in One Place 🌐
+# InfoHub 🌐
 
-A modern, full-stack single-page application (SPA) that seamlessly integrates three everyday utilities: real-time weather display, currency converter, and motivational quote generator.
+A full-stack utility app with weather, currency converter, and quote generator.
 
-## 🎯 Project Overview
+**[🚀 Live Demo](https://info-hub-wheat.vercel.app/)**
 
-InfoHub is built as a demonstration of full-stack development skills, featuring:
-- **React** frontend with modern hooks and state management
-- **Node.js + Express** backend with RESTful API architecture
-- **External API integration** for real-time data
-- **Responsive design** that works beautifully on all devices
+## Features
+- 🌤️ Weather Display
+- 💱 Currency Converter
+- ✨ Quote Generator
 
-## ✨ Features
-
-### 1. 🌤️ Real-Time Weather Display
-- Search weather for any city worldwide
-- Displays current temperature, feels-like temperature, and weather conditions
-- Shows humidity and wind speed
-- Beautiful weather icons
-- Real-time data from OpenWeatherMap API
-
-### 2. 💱 Currency Converter
-- Convert Indian Rupees (INR) to multiple currencies
-- Supports USD, EUR, GBP, JPY, AUD, and CAD
-- Real-time exchange rates
-- Shows both converted amounts and exchange rates
-- Elegant card-based design
-
-### 3. ✨ Motivational Quote Generator
-- Generate inspiring quotes on demand
-- Beautiful gradient background with quote styling
-- Fallback to local quotes if external API is unavailable
-- One-click quote generation
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **React 18** - Modern UI library with hooks
-- **Vite** - Fast build tool and development server
-- **Axios** - Promise-based HTTP client
-- **CSS3** - Modern responsive design with CSS variables
-
-### Backend
-- **Node.js** - JavaScript runtime
-- **Express** - Web application framework
-- **Axios** - HTTP client for external APIs
-- **CORS** - Cross-Origin Resource Sharing middleware
-- **dotenv** - Environment variable management
-
-### External APIs
+## Tech
+React + Vite | Node.js + Express
 - **OpenWeatherMap** - Real-time weather data
 - **ExchangeRate-API** - Currency exchange rates
 - **Quotable** - Motivational quotes
