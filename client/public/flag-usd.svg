@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30">
+  <defs>
+    <clipPath id="t">
+      <path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/>
+    </clipPath>
+  </defs>
+  <path fill="#b22234" d="M0,0h60v30H0z"/>
+  <path stroke="#fff" stroke-width="2" d="M0,3.33h60M0,6.67h60M0,10h60M0,13.33h60M0,16.67h60M0,20h60M0,23.33h60M0,26.67h60"/>
+  <path fill="#3c3b6e" d="M0,0h24v16.67H0z"/>
+  <g fill="#fff">
+    <g id="s">
+      <g id="f">
+        <path id="star" d="M0,0 v1 h0.5 z"/>
+        <use href="#star" transform="scale(-1,1)"/>
+      </g>
+      <use href="#f" transform="rotate(72)"/>
+      <use href="#f" transform="rotate(144)"/>
+      <use href="#f" transform="rotate(216)"/>
+      <use href="#f" transform="rotate(288)"/>
+    </g>
+    <use id="s" x="2" y="2" href="#s"/>
+    <use id="s" x="4" y="2" href="#s"/>
+    <use id="s" x="6" y="2" href="#s"/>
+    <use id="s" x="8" y="2" href="#s"/>
+    <use id="s" x="10" y="2" href="#s"/>
+    <use id="s" x="3" y="3" href="#s"/>
+    <use id="s" x="5" y="3" href="#s"/>
+    <use id="s" x="7" y="3" href="#s"/>
+    <use id="s" x="9" y="3" href="#s"/>
+    <use id="s" x="2" y="4" href="#s"/>
+    <use id="s" x="4" y="4" href="#s"/>
+    <use id="s" x="6" y="4" href="#s"/>
+    <use id="s" x="8" y="4" href="#s"/>
+    <use id="s" x="10" y="4" href="#s"/>
+    <use id="s" x="3" y="5" href="#s"/>
+    <use id="s" x="5" y="5" href="#s"/>
+    <use id="s" x="7" y="5" href="#s"/>
+    <use id="s" x="9" y="5" href="#s"/>
+    <use id="s" x="2" y="6" href="#s"/>
+    <use id="s" x="4" y="6" href="#s"/>
+    <use id="s" x="6" y="6" href="#s"/>
+    <use id="s" x="8" y="6" href="#s"/>
+    <use id="s" x="10" y="6" href="#s"/>
+  </g>
+</svg>

@@ -76,7 +76,9 @@ const CurrencyConverter = () => {
 
           <div className="conversions-grid">
             <div className="conversion-card">
-              <div className="currency-flag">🇺🇸</div>
+              <div className="currency-flag">
+                <img src="/flag-usd.svg" alt="USA Flag" />
+              </div>
               <div className="currency-info">
                 <span className="currency-code">USD</span>
                 <span className="currency-value">$ {data.conversions.USD}</span>
@@ -85,7 +87,9 @@ const CurrencyConverter = () => {
             </div>
 
             <div className="conversion-card">
-              <div className="currency-flag">🇪🇺</div>
+              <div className="currency-flag">
+                <img src="/flag-eur.svg" alt="EU Flag" />
+              </div>
               <div className="currency-info">
                 <span className="currency-code">EUR</span>
                 <span className="currency-value">€ {data.conversions.EUR}</span>
@@ -94,7 +98,9 @@ const CurrencyConverter = () => {
             </div>
 
             <div className="conversion-card">
-              <div className="currency-flag">🇬🇧</div>
+              <div className="currency-flag">
+                <img src="/flag-gbp.svg" alt="UK Flag" />
+              </div>
               <div className="currency-info">
                 <span className="currency-code">GBP</span>
                 <span className="currency-value">£ {data.conversions.GBP}</span>
@@ -103,7 +109,9 @@ const CurrencyConverter = () => {
             </div>
 
             <div className="conversion-card">
-              <div className="currency-flag">🇯🇵</div>
+              <div className="currency-flag">
+                <img src="/flag-jpy.svg" alt="Japan Flag" />
+              </div>
               <div className="currency-info">
                 <span className="currency-code">JPY</span>
                 <span className="currency-value">¥ {data.conversions.JPY}</span>
@@ -112,7 +120,9 @@ const CurrencyConverter = () => {
             </div>
 
             <div className="conversion-card">
-              <div className="currency-flag">🇦🇺</div>
+              <div className="currency-flag">
+                <img src="/flag-aud.svg" alt="Australia Flag" />
+              </div>
               <div className="currency-info">
                 <span className="currency-code">AUD</span>
                 <span className="currency-value">A$ {data.conversions.AUD}</span>
@@ -121,7 +131,9 @@ const CurrencyConverter = () => {
             </div>
 
             <div className="conversion-card">
-              <div className="currency-flag">🇨🇦</div>
+              <div className="currency-flag">
+                <img src="/flag-cad.svg" alt="Canada Flag" />
+              </div>
               <div className="currency-info">
                 <span className="currency-code">CAD</span>
                 <span className="currency-value">C$ {data.conversions.CAD}</span>

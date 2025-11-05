@@ -444,6 +444,19 @@ body {
 
 .currency-flag {
   font-size: 3rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.currency-flag img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
 }
 
 .currency-info {
