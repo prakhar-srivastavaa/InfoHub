@@ -70,7 +70,7 @@ const CurrencyConverter = () => {
       {!isLoading && !error && data && (
         <div className="currency-display">
           <div className="conversion-header">
-            <p className="base-amount">₹ {data.amount} INR = </p>
+            <p className="base-amount">₹ {data.amount} INR </p>
             <p className="last-updated">Last updated: {data.lastUpdated}</p>
           </div>
 
