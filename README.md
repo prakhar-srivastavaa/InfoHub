@@ -1,4 +1,4 @@
-# InfoHub 🌐
+# Weatherapp 🌐
 
 A full-stack utility app with weather, currency converter, and quote generator.
 
@@ -18,7 +18,7 @@ React + Vite | Node.js + Express
 ## 📁 Project Structure
 
 ```
-InfoHub/
+Weatherapp/
 ├── client/                      # React Frontend
 │   ├── src/
 │   │   ├── components/

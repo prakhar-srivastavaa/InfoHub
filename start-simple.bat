@@ -1,17 +1,17 @@
 @echo off
-title InfoHub Launcher
+title Weatherapp Launcher
 color 0A
 
 echo.
 echo  ========================================
-echo    InfoHub Application Launcher
+echo    Weatherapp Application Launcher
 echo  ========================================
 echo.
 echo  [1] Starting Backend Server...
 echo.
 
 cd server
-start "InfoHub Backend - Port 3001" cmd /k "npm start"
+start "Weatherapp Backend - Port 3001" cmd /k "npm start"
 
 echo  [2] Waiting 5 seconds for backend to initialize...
 timeout /t 5 /nobreak > nul
@@ -21,7 +21,7 @@ echo  [3] Starting Frontend Development Server...
 echo.
 
 cd ..\client
-start "InfoHub Frontend - Port 5173" cmd /k "npm run dev"
+start "Weatherapp Frontend - Port 5173" cmd /k "npm run dev"
 
 cd ..
 

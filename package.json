@@ -1,7 +1,7 @@
 {
-  "name": "infohub",
+  "name": "weatherapp",
   "version": "1.0.0",
-  "description": "InfoHub - A full-stack SPA integrating weather, currency, and quotes utilities",
+  "description": "Weatherapp - A full-stack SPA integrating weather, currency, and quotes utilities",
   "scripts": {
     "install-all": "cd server && npm install && cd ../client && npm install",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
